@@ -20,7 +20,7 @@ import pickle
 
 
 # importer la data :
-data= pd.read_csv(r"C:\Users\admin\Desktop\Nouveau dossier (7)\application_train.csv")
+data= pd.read_csv(r"https://raw.githubusercontent.com/SiBouazizi/New-project-/main/train.csv",sep="\t")
 data= data.dropna()
 data=data[2:100]
 
